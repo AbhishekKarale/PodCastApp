@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B052C1B81D04465900BB88F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052C1B71D04465900BB88F2 /* AppDelegate.swift */; };
+		B052C1BA1D04465900BB88F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052C1B91D04465900BB88F2 /* ViewController.swift */; };
+		B052C1BD1D04465900BB88F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B052C1BB1D04465900BB88F2 /* Main.storyboard */; };
+		B052C1BF1D04465900BB88F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B052C1BE1D04465900BB88F2 /* Assets.xcassets */; };
+		B052C1C21D04465900BB88F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B052C1C01D04465900BB88F2 /* LaunchScreen.storyboard */; };
+		B052C1CD1D04465900BB88F2 /* PodCastAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052C1CC1D04465900BB88F2 /* PodCastAppTests.swift */; };
+		B052C1D81D04465900BB88F2 /* PodCastAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B052C1D71D04465900BB88F2 /* PodCastAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B052C1C91D04465900BB88F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B052C1AC1D04465700BB88F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B052C1B31D04465800BB88F2;
+			remoteInfo = PodCastApp;
+		};
+		B052C1D41D04465900BB88F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B052C1AC1D04465700BB88F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B052C1B31D04465800BB88F2;
+			remoteInfo = PodCastApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B052C1B41D04465800BB88F2 /* PodCastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodCastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B052C1B71D04465900BB88F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B052C1B91D04465900BB88F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B052C1BC1D04465900BB88F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B052C1BE1D04465900BB88F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B052C1C11D04465900BB88F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B052C1C31D04465900BB88F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B052C1C81D04465900BB88F2 /* PodCastAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodCastAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B052C1CC1D04465900BB88F2 /* PodCastAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodCastAppTests.swift; sourceTree = "<group>"; };
+		B052C1CE1D04465900BB88F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B052C1D31D04465900BB88F2 /* PodCastAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodCastAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B052C1D71D04465900BB88F2 /* PodCastAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodCastAppUITests.swift; sourceTree = "<group>"; };
+		B052C1D91D04465900BB88F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B052C1B11D04465800BB88F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B052C1C51D04465900BB88F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B052C1D01D04465900BB88F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B052C1AB1D04465700BB88F2 = {
+			isa = PBXGroup;
+			children = (
+				B052C1B61D04465900BB88F2 /* PodCastApp */,
+				B052C1CB1D04465900BB88F2 /* PodCastAppTests */,
+				B052C1D61D04465900BB88F2 /* PodCastAppUITests */,
+				B052C1B51D04465800BB88F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B052C1B51D04465800BB88F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B052C1B41D04465800BB88F2 /* PodCastApp.app */,
+				B052C1C81D04465900BB88F2 /* PodCastAppTests.xctest */,
+				B052C1D31D04465900BB88F2 /* PodCastAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B052C1B61D04465900BB88F2 /* PodCastApp */ = {
+			isa = PBXGroup;
+			children = (
+				B052C1B71D04465900BB88F2 /* AppDelegate.swift */,
+				B052C1B91D04465900BB88F2 /* ViewController.swift */,
+				B052C1BB1D04465900BB88F2 /* Main.storyboard */,
+				B052C1BE1D04465900BB88F2 /* Assets.xcassets */,
+				B052C1C01D04465900BB88F2 /* LaunchScreen.storyboard */,
+				B052C1C31D04465900BB88F2 /* Info.plist */,
+			);
+			path = PodCastApp;
+			sourceTree = "<group>";
+		};
+		B052C1CB1D04465900BB88F2 /* PodCastAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B052C1CC1D04465900BB88F2 /* PodCastAppTests.swift */,
+				B052C1CE1D04465900BB88F2 /* Info.plist */,
+			);
+			path = PodCastAppTests;
+			sourceTree = "<group>";
+		};
+		B052C1D61D04465900BB88F2 /* PodCastAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B052C1D71D04465900BB88F2 /* PodCastAppUITests.swift */,
+				B052C1D91D04465900BB88F2 /* Info.plist */,
+			);
+			path = PodCastAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B052C1B31D04465800BB88F2 /* PodCastApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B052C1DC1D04465900BB88F2 /* Build configuration list for PBXNativeTarget "PodCastApp" */;
+			buildPhases = (
+				B052C1B01D04465800BB88F2 /* Sources */,
+				B052C1B11D04465800BB88F2 /* Frameworks */,
+				B052C1B21D04465800BB88F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodCastApp;
+			productName = PodCastApp;
+			productReference = B052C1B41D04465800BB88F2 /* PodCastApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B052C1C71D04465900BB88F2 /* PodCastAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B052C1DF1D04465900BB88F2 /* Build configuration list for PBXNativeTarget "PodCastAppTests" */;
+			buildPhases = (
+				B052C1C41D04465900BB88F2 /* Sources */,
+				B052C1C51D04465900BB88F2 /* Frameworks */,
+				B052C1C61D04465900BB88F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B052C1CA1D04465900BB88F2 /* PBXTargetDependency */,
+			);
+			name = PodCastAppTests;
+			productName = PodCastAppTests;
+			productReference = B052C1C81D04465900BB88F2 /* PodCastAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B052C1D21D04465900BB88F2 /* PodCastAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B052C1E21D04465900BB88F2 /* Build configuration list for PBXNativeTarget "PodCastAppUITests" */;
+			buildPhases = (
+				B052C1CF1D04465900BB88F2 /* Sources */,
+				B052C1D01D04465900BB88F2 /* Frameworks */,
+				B052C1D11D04465900BB88F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B052C1D51D04465900BB88F2 /* PBXTargetDependency */,
+			);
+			name = PodCastAppUITests;
+			productName = PodCastAppUITests;
+			productReference = B052C1D31D04465900BB88F2 /* PodCastAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B052C1AC1D04465700BB88F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AppMonkey;
+				TargetAttributes = {
+					B052C1B31D04465800BB88F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B052C1C71D04465900BB88F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B052C1B31D04465800BB88F2;
+					};
+					B052C1D21D04465900BB88F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B052C1B31D04465800BB88F2;
+					};
+				};
+			};
+			buildConfigurationList = B052C1AF1D04465700BB88F2 /* Build configuration list for PBXProject "PodCastApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B052C1AB1D04465700BB88F2;
+			productRefGroup = B052C1B51D04465800BB88F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B052C1B31D04465800BB88F2 /* PodCastApp */,
+				B052C1C71D04465900BB88F2 /* PodCastAppTests */,
+				B052C1D21D04465900BB88F2 /* PodCastAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B052C1B21D04465800BB88F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B052C1C21D04465900BB88F2 /* LaunchScreen.storyboard in Resources */,
+				B052C1BF1D04465900BB88F2 /* Assets.xcassets in Resources */,
+				B052C1BD1D04465900BB88F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B052C1C61D04465900BB88F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B052C1D11D04465900BB88F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B052C1B01D04465800BB88F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B052C1BA1D04465900BB88F2 /* ViewController.swift in Sources */,
+				B052C1B81D04465900BB88F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B052C1C41D04465900BB88F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B052C1CD1D04465900BB88F2 /* PodCastAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B052C1CF1D04465900BB88F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B052C1D81D04465900BB88F2 /* PodCastAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B052C1CA1D04465900BB88F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B052C1B31D04465800BB88F2 /* PodCastApp */;
+			targetProxy = B052C1C91D04465900BB88F2 /* PBXContainerItemProxy */;
+		};
+		B052C1D51D04465900BB88F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B052C1B31D04465800BB88F2 /* PodCastApp */;
+			targetProxy = B052C1D41D04465900BB88F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B052C1BB1D04465900BB88F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B052C1BC1D04465900BB88F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B052C1C01D04465900BB88F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B052C1C11D04465900BB88F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B052C1DA1D04465900BB88F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B052C1DB1D04465900BB88F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B052C1DD1D04465900BB88F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PodCastApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmonkey.PodCastApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B052C1DE1D04465900BB88F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PodCastApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmonkey.PodCastApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B052C1E01D04465900BB88F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PodCastAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmonkey.PodCastAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodCastApp.app/PodCastApp";
+			};
+			name = Debug;
+		};
+		B052C1E11D04465900BB88F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PodCastAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmonkey.PodCastAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodCastApp.app/PodCastApp";
+			};
+			name = Release;
+		};
+		B052C1E31D04465900BB88F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PodCastAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmonkey.PodCastAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PodCastApp;
+			};
+			name = Debug;
+		};
+		B052C1E41D04465900BB88F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PodCastAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appmonkey.PodCastAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PodCastApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B052C1AF1D04465700BB88F2 /* Build configuration list for PBXProject "PodCastApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B052C1DA1D04465900BB88F2 /* Debug */,
+				B052C1DB1D04465900BB88F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B052C1DC1D04465900BB88F2 /* Build configuration list for PBXNativeTarget "PodCastApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B052C1DD1D04465900BB88F2 /* Debug */,
+				B052C1DE1D04465900BB88F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B052C1DF1D04465900BB88F2 /* Build configuration list for PBXNativeTarget "PodCastAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B052C1E01D04465900BB88F2 /* Debug */,
+				B052C1E11D04465900BB88F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B052C1E21D04465900BB88F2 /* Build configuration list for PBXNativeTarget "PodCastAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B052C1E31D04465900BB88F2 /* Debug */,
+				B052C1E41D04465900BB88F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B052C1AC1D04465700BB88F2 /* Project object */;
+}
